@@ -14,6 +14,6 @@ Which will produce a response of the form:
 
 If the 'echo' query-string parameter is omitted, the response is:
 
-   <http_test><error>no value specified</error></http_test>
+    <http_test><error>no value specified</error></http_test>
 
 This test suite utilizes Jackson for JSON processing (serializing and deserializing) and supports Jackson annotations on domain objects.  However, no date processing (for ISO8601 dates) is configured.
