@@ -27,11 +27,11 @@ public class Main
 		RestExpress server = new RestExpress()
 		    .setName(config.getName())
 		    .setPort(config.getPort())
-		    .setDefaultFormat(config.getDefaultFormat())
 		    .putResponseProcessor(Format.JSON, ResponseProcessors.json())
 		    .putResponseProcessor(Format.XML, ResponseProcessors.xml())
 		    .putResponseProcessor(Format.WRAPPED_JSON, ResponseProcessors.wrappedJson())
-		    .putResponseProcessor(Format.WRAPPED_XML, ResponseProcessors.wrappedXml());
+		    .putResponseProcessor(Format.WRAPPED_XML, ResponseProcessors.wrappedXml())
+		    .setDefaultFormat(config.getDefaultFormat());
 
 		if (config.shouldDisplayOutput())
 		{

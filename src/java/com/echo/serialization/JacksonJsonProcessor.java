@@ -46,6 +46,8 @@ implements SerializationProcessor
     {
 	    super();
 	    this.mapper = mapper;
+//	    mapper.configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false);
+//	    mapper.configure(Feature.ALLOW_SINGLE_QUOTES, true);
     }
 
 	@Override
