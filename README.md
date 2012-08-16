@@ -44,24 +44,24 @@ execute a controller method).  I currently recommend setting it to match the num
 Configuration is read from the './config/dev/environment.properties' file.  An example file is below:
 
     # Default is 8081
-port = 9000
-#
-#Display Output? True impacts performance, but offers debugging via output capability
-displayOutput = true
-#
-# The name of the service suite
-name = RestExpress Benchmarks
-#
-# The default service response format (default is JSON)
-defaultFormat = json
-#
-# Any value above zero will be used to set the number of NIO worker threads:
-# Default is 0 => 2 x #cores
-# This controls the number of concurrent requests the app can handle.
-workerCount = 0
-#
-# This controls the number of concurrent blocking operations that the app can process concurrently.
-executorThreadCount = 200
+    port = 9000
+    
+    #Display Output? True impacts performance, but offers debugging via output capability
+    displayOutput = true
+    
+    # The name of the service suite
+    name = RestExpress Benchmarks
+    
+    # The default service response format (default is JSON)
+    defaultFormat = json
+    
+    # Any value above zero will be used to set the number of NIO worker threads:
+    # Default is 0 => 2 x #cores
+    # This controls the number of concurrent requests the app can handle.
+    workerCount = 0
+    
+    # This controls the number of concurrent blocking operations that the app can process concurrently.
+    executorThreadCount = 200
 
 _workerCount_ being set to zero allows RestExpress to determine the number of cores on the machine and create 2 times the number of cores for NIO workers.
 
