@@ -11,11 +11,11 @@ import com.strategicgains.util.date.DateAdapterConstants;
  * @author toddf
  * @since Oct 10, 2011
  */
-public class JsonSerializationProcessor
+public class GsonJsonProcessor
 extends DefaultJsonProcessor
 {
 
-	public JsonSerializationProcessor()
+	public GsonJsonProcessor()
     {
 	    super(
 	    	new GsonBuilder()

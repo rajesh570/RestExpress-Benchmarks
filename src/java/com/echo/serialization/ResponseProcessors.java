@@ -31,8 +31,8 @@ public class ResponseProcessors
 {
 	// SECTION: CONSTANTS
 
-	private static final SerializationProcessor JSON_SERIALIZER = new JsonSerializationProcessor();
-	private static final SerializationProcessor XML_SERIALIZER = new XmlSerializationProcessor();
+	private static final SerializationProcessor JSON_SERIALIZER = new JacksonJsonProcessor();
+	private static final SerializationProcessor XML_SERIALIZER = new XstreamXmlProcessor();
 	private static final ResponseWrapper RAW_WRAPPER = new RawResponseWrapper();
 	private static final ResponseWrapper WRAPPING_WRAPPER = new DefaultResponseWrapper();
 
