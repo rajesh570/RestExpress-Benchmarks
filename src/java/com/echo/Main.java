@@ -68,6 +68,18 @@ public class Main
 		server.uri("/echo", config.getEchoController())
 		    .action("echoBenchmark", HttpMethod.GET)
 		    .noSerialization();
+		
+		server.uri("/mongoEcho", config.getMongoEchoController())
+	    	.action("mongoEchoBenchmark", HttpMethod.GET)
+	    	.noSerialization();
+		
+		server.uri("/fileIO", config.getFileIOController(config.getFileDirectory()))
+	    	.action("fileIOBenchmark", HttpMethod.GET)
+	    	.noSerialization();
+		
+		server.uri("/serialization", config.getSerializationController())
+	    	.action("serializationBenchmark", HttpMethod.GET)
+	    	.noSerialization();
 
 		// This route supports POST and PUT, echoing the body in the response.
 		// GET and DELETE are also supported but require an 'echo' header or
