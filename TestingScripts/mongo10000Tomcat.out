@@ -1,0 +1,2059 @@
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 5
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.334 s
+
+Connection rate: 2999.1 conn/s (0.3 ms/conn, <=74 concurrent connections)
+Connection time [ms]: min 0.5 avg 3.8 max 3001.4 median 0.5 stddev 90.0
+Connection time [ms]: connect 2.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 2999.1 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.69 system 1.64 (user 50.7% system 49.2% total 99.9%)
+Net I/O: 881.6 KB/s (7.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2999.07 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 5
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.226 s
+
+Connection rate: 3099.5 conn/s (0.3 ms/conn, <=13 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.8 max 4.3 median 0.5 stddev 0.2
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3099.5 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 2.15 system 1.07 (user 66.6% system 33.2% total 99.8%)
+Net I/O: 911.1 KB/s (7.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3099.49 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 12
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.126 s
+
+Connection rate: 3198.6 conn/s (0.3 ms/conn, <=23 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.8 max 7.5 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3198.6 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.95 system 1.17 (user 62.4% system 37.4% total 99.8%)
+Net I/O: 940.2 KB/s (7.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3198.63 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 5
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.031 s
+
+Connection rate: 3299.0 conn/s (0.3 ms/conn, <=83 concurrent connections)
+Connection time [ms]: min 0.4 avg 4.4 max 2999.4 median 0.5 stddev 95.0
+Connection time [ms]: connect 3.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3299.0 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.35 system 1.68 (user 44.5% system 55.4% total 100.0%)
+Net I/O: 969.7 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3298.99 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 5
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.944 s
+
+Connection rate: 3397.3 conn/s (0.3 ms/conn, <=16 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 4.6 median 0.5 stddev 0.2
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3397.3 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 2.03 system 0.91 (user 69.0% system 30.9% total 99.9%)
+Net I/O: 998.6 KB/s (8.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3397.27 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 17
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.857 s
+
+Connection rate: 3499.8 conn/s (0.3 ms/conn, <=21 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.8 max 6.7 median 0.5 stddev 0.2
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3499.8 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.86 system 0.98 (user 65.1% system 34.3% total 99.4%)
+Net I/O: 1028.8 KB/s (8.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3499.82 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 6
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.033 s
+
+Connection rate: 3297.5 conn/s (0.3 ms/conn, <=91 concurrent connections)
+Connection time [ms]: min 0.4 avg 6.1 max 3000.8 median 0.5 stddev 120.1
+Connection time [ms]: connect 5.0
+Connection length [replies/conn]: 1.000
+
+Request rate: 3297.5 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.12 system 1.91 (user 36.9% system 63.0% total 99.9%)
+Net I/O: 969.3 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3297.52 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 6
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.705 s
+
+Connection rate: 3697.3 conn/s (0.3 ms/conn, <=17 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.8 max 4.7 median 0.5 stddev 0.2
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3697.3 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.50 system 1.20 (user 55.5% system 44.4% total 99.8%)
+Net I/O: 1086.8 KB/s (8.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3697.30 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 18
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.633 s
+
+Connection rate: 3797.6 conn/s (0.3 ms/conn, <=26 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 7.0 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3797.6 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.74 system 0.89 (user 66.1% system 33.8% total 99.9%)
+Net I/O: 1116.3 KB/s (9.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3797.64 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=3900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 6
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.034 s
+
+Connection rate: 3295.6 conn/s (0.3 ms/conn, <=107 concurrent connections)
+Connection time [ms]: min 0.4 avg 7.4 max 3009.2 median 0.5 stddev 131.1
+Connection time [ms]: connect 5.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 3295.6 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.5 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.32 system 1.71 (user 43.5% system 56.4% total 99.9%)
+Net I/O: 968.7 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3295.63 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 7
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.502 s
+
+Connection rate: 3996.3 conn/s (0.3 ms/conn, <=16 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 3.9 median 0.5 stddev 0.2
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3996.3 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.51 system 0.99 (user 60.3% system 39.6% total 99.9%)
+Net I/O: 1174.7 KB/s (9.6*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3996.30 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 22
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.440 s
+
+Connection rate: 4097.6 conn/s (0.2 ms/conn, <=31 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 6.5 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 4097.6 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.55 system 0.88 (user 63.5% system 36.1% total 99.6%)
+Net I/O: 1204.5 KB/s (9.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4097.57 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 7
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.027 s
+
+Connection rate: 3303.4 conn/s (0.3 ms/conn, <=107 concurrent connections)
+Connection time [ms]: min 0.4 avg 4.3 max 3000.4 median 0.5 stddev 85.8
+Connection time [ms]: connect 2.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 3303.4 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.62 system 1.41 (user 53.5% system 46.6% total 100.1%)
+Net I/O: 971.0 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3303.41 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 7
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.325 s
+
+Connection rate: 4300.3 conn/s (0.2 ms/conn, <=17 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 3.9 median 0.5 stddev 0.2
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 4300.3 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.42 system 0.90 (user 61.1% system 38.7% total 99.8%)
+Net I/O: 1264.0 KB/s (10.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4300.25 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 21
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.273 s
+
+Connection rate: 4398.5 conn/s (0.2 ms/conn, <=30 concurrent connections)
+Connection time [ms]: min 0.5 avg 0.9 max 7.0 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 4398.5 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.37 system 0.89 (user 60.3% system 39.1% total 99.4%)
+Net I/O: 1292.9 KB/s (10.6*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4398.51 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 7
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.030 s
+
+Connection rate: 3300.4 conn/s (0.3 ms/conn, <=124 concurrent connections)
+Connection time [ms]: min 0.4 avg 9.7 max 3000.4 median 0.5 stddev 153.1
+Connection time [ms]: connect 8.0
+Connection length [replies/conn]: 1.000
+
+Request rate: 3300.4 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.13 system 1.90 (user 37.3% system 62.7% total 100.0%)
+Net I/O: 970.1 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3300.37 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 8
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.176 s
+
+Connection rate: 4596.6 conn/s (0.2 ms/conn, <=21 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 4.7 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 4596.6 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.42 system 0.75 (user 65.3% system 34.5% total 99.7%)
+Net I/O: 1351.2 KB/s (11.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4596.64 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 22
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.128 s
+
+Connection rate: 4699.7 conn/s (0.2 ms/conn, <=32 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 6.9 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 4699.7 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.32 system 0.79 (user 62.0% system 37.1% total 99.2%)
+Net I/O: 1381.5 KB/s (11.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4699.71 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 8
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.034 s
+
+Connection rate: 3295.9 conn/s (0.3 ms/conn, <=140 concurrent connections)
+Connection time [ms]: min 0.5 avg 9.0 max 3000.4 median 0.5 stddev 141.3
+Connection time [ms]: connect 6.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 3295.9 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.24 system 1.79 (user 40.9% system 59.0% total 99.9%)
+Net I/O: 968.8 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3295.86 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=4900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 8
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.043 s
+
+Connection rate: 4895.8 conn/s (0.2 ms/conn, <=23 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 4.5 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 4895.8 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.31 system 0.72 (user 64.1% system 35.2% total 99.4%)
+Net I/O: 1439.1 KB/s (11.8*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4895.77 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 23
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 2.002 s
+
+Connection rate: 4995.7 conn/s (0.2 ms/conn, <=34 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 7.2 median 0.5 stddev 0.4
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 4995.7 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.31 system 0.69 (user 65.4% system 34.5% total 99.9%)
+Net I/O: 1468.5 KB/s (12.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 4995.67 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 8
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.032 s
+
+Connection rate: 3297.7 conn/s (0.3 ms/conn, <=141 concurrent connections)
+Connection time [ms]: min 0.4 avg 8.7 max 3000.1 median 0.5 stddev 138.1
+Connection time [ms]: connect 6.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 3297.7 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.35 system 1.68 (user 44.5% system 55.4% total 99.9%)
+Net I/O: 969.3 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3297.67 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 9
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.925 s
+
+Connection rate: 5194.1 conn/s (0.2 ms/conn, <=24 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 6.2 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 5194.1 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.29 system 0.63 (user 67.0% system 32.7% total 99.7%)
+Net I/O: 1526.8 KB/s (12.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 5194.12 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 26
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.887 s
+
+Connection rate: 5298.1 conn/s (0.2 ms/conn, <=37 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 7.8 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 5298.1 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.26 system 0.63 (user 66.8% system 33.4% total 100.1%)
+Net I/O: 1557.4 KB/s (12.8*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 5298.11 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 9
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.035 s
+
+Connection rate: 3294.6 conn/s (0.3 ms/conn, <=159 concurrent connections)
+Connection time [ms]: min 0.5 avg 13.6 max 3001.7 median 0.5 stddev 182.6
+Connection time [ms]: connect 11.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 3294.6 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.2 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.90 system 2.13 (user 29.7% system 70.2% total 99.8%)
+Net I/O: 968.4 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3294.58 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 10
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.821 s
+
+Connection rate: 5492.8 conn/s (0.2 ms/conn, <=22 concurrent connections)
+Connection time [ms]: min 0.4 avg 0.9 max 3.9 median 0.5 stddev 0.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 5492.8 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.05 system 0.77 (user 57.7% system 42.3% total 100.0%)
+Net I/O: 1614.6 KB/s (13.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 5492.76 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 43
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.787 s
+
+Connection rate: 5596.8 conn/s (0.2 ms/conn, <=54 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.0 max 8.6 median 0.5 stddev 0.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 5596.8 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.97 system 0.82 (user 54.3% system 45.9% total 100.2%)
+Net I/O: 1645.1 KB/s (13.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 5596.77 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 9
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.036 s
+
+Connection rate: 3294.2 conn/s (0.3 ms/conn, <=171 concurrent connections)
+Connection time [ms]: min 0.4 avg 14.7 max 3002.7 median 0.5 stddev 189.9
+Connection time [ms]: connect 12.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 3294.2 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.5 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.03 system 2.00 (user 33.9% system 65.9% total 99.8%)
+Net I/O: 968.3 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3294.17 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 10
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.724 s
+
+Connection rate: 5799.5 conn/s (0.2 ms/conn, <=22 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.0 max 3.7 median 0.5 stddev 0.4
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 5799.5 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.01 system 0.71 (user 58.6% system 41.2% total 99.8%)
+Net I/O: 1704.7 KB/s (14.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 5799.45 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=5900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 28
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.697 s
+
+Connection rate: 5893.6 conn/s (0.2 ms/conn, <=40 concurrent connections)
+Connection time [ms]: min 0.5 avg 1.0 max 7.0 median 0.5 stddev 0.4
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 5893.6 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.09 system 0.59 (user 64.2% system 34.8% total 99.0%)
+Net I/O: 1732.4 KB/s (14.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 5893.62 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 10
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.035 s
+
+Connection rate: 3294.8 conn/s (0.3 ms/conn, <=177 concurrent connections)
+Connection time [ms]: min 0.5 avg 12.6 max 3003.4 median 0.5 stddev 168.1
+Connection time [ms]: connect 9.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 3294.8 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 3.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.01 system 2.02 (user 33.3% system 66.6% total 99.8%)
+Net I/O: 968.5 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3294.78 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 10
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.641 s
+
+Connection rate: 6092.3 conn/s (0.2 ms/conn, <=26 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.0 max 4.9 median 0.5 stddev 0.4
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6092.3 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.04 system 0.60 (user 63.4% system 36.6% total 99.9%)
+Net I/O: 1790.8 KB/s (14.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6092.33 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 29
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.616 s
+
+Connection rate: 6187.8 conn/s (0.2 ms/conn, <=55 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.1 max 9.0 median 0.5 stddev 0.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6187.8 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.69 system 0.91 (user 42.7% system 56.3% total 99.0%)
+Net I/O: 1818.9 KB/s (14.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6187.79 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 10
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.022 s
+
+Connection rate: 3309.0 conn/s (0.3 ms/conn, <=173 concurrent connections)
+Connection time [ms]: min 0.4 avg 9.8 max 3001.8 median 0.5 stddev 141.7
+Connection time [ms]: connect 6.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 3309.0 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.29 system 1.72 (user 42.7% system 56.9% total 99.6%)
+Net I/O: 972.7 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3309.03 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 11
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.563 s
+
+Connection rate: 6398.1 conn/s (0.2 ms/conn, <=28 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.1 max 4.3 median 0.5 stddev 0.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6398.1 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.81 system 0.75 (user 51.8% system 48.0% total 99.8%)
+Net I/O: 1880.7 KB/s (15.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6398.08 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 55
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.540 s
+
+Connection rate: 6495.5 conn/s (0.2 ms/conn, <=69 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.1 max 9.7 median 0.5 stddev 0.6
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6495.5 req/s (0.2 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.85 system 0.69 (user 55.2% system 44.8% total 100.0%)
+Net I/O: 1909.3 KB/s (15.6*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6495.46 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 11
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.238 s
+
+Connection rate: 3088.4 conn/s (0.3 ms/conn, <=187 concurrent connections)
+Connection time [ms]: min 0.4 avg 14.6 max 3001.1 median 0.5 stddev 173.4
+Connection time [ms]: connect 9.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 3088.4 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 4.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.22 system 2.01 (user 37.7% system 62.1% total 99.8%)
+Net I/O: 907.8 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3088.43 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 11
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.494 s
+
+Connection rate: 6693.4 conn/s (0.1 ms/conn, <=32 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.1 max 7.3 median 0.5 stddev 0.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6693.4 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.83 system 0.66 (user 55.6% system 44.2% total 99.7%)
+Net I/O: 1967.5 KB/s (16.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6693.44 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 32
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.473 s
+
+Connection rate: 6789.8 conn/s (0.1 ms/conn, <=60 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.1 max 9.0 median 0.5 stddev 0.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6789.8 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.76 system 0.70 (user 51.6% system 47.5% total 99.1%)
+Net I/O: 1995.8 KB/s (16.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6789.83 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=6900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 11
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.029 s
+
+Connection rate: 3301.5 conn/s (0.3 ms/conn, <=214 concurrent connections)
+Connection time [ms]: min 0.4 avg 19.8 max 3002.3 median 1.5 stddev 222.4
+Connection time [ms]: connect 16.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 3301.5 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 3.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.80 system 2.22 (user 26.4% system 73.3% total 99.7%)
+Net I/O: 970.5 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3301.52 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 12
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.429 s
+
+Connection rate: 6995.9 conn/s (0.1 ms/conn, <=43 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.1 max 6.5 median 0.5 stddev 0.6
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 6995.9 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.73 system 0.70 (user 51.1% system 49.0% total 100.0%)
+Net I/O: 2056.4 KB/s (16.8*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 6995.90 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 37
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.410 s
+
+Connection rate: 7089.9 conn/s (0.1 ms/conn, <=70 concurrent connections)
+Connection time [ms]: min 0.5 avg 1.2 max 10.2 median 1.5 stddev 0.6
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 7089.9 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.63 system 0.78 (user 44.7% system 55.3% total 100.0%)
+Net I/O: 2084.0 KB/s (17.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 7089.90 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 12
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.230 s
+
+Connection rate: 3095.7 conn/s (0.3 ms/conn, <=220 concurrent connections)
+Connection time [ms]: min 0.4 avg 14.4 max 3000.9 median 1.5 stddev 163.5
+Connection time [ms]: connect 8.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 3095.7 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 5.7 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.20 system 2.03 (user 37.1% system 62.8% total 100.0%)
+Net I/O: 910.0 KB/s (7.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3095.74 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 12
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.372 s
+
+Connection rate: 7286.8 conn/s (0.1 ms/conn, <=36 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.2 max 5.5 median 1.5 stddev 0.6
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 7286.8 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.63 system 0.74 (user 45.9% system 53.9% total 99.8%)
+Net I/O: 2141.9 KB/s (17.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 7286.85 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 81
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.354 s
+
+Connection rate: 7387.4 conn/s (0.1 ms/conn, <=99 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.2 max 17.3 median 1.5 stddev 0.8
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 7387.4 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.81 system 0.55 (user 59.8% system 40.6% total 100.5%)
+Net I/O: 2171.5 KB/s (17.8*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 7387.40 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 13
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.239 s
+
+Connection rate: 3087.2 conn/s (0.3 ms/conn, <=226 concurrent connections)
+Connection time [ms]: min 0.5 avg 28.4 max 3001.5 median 1.5 stddev 271.3
+Connection time [ms]: connect 24.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 3087.2 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 3.5 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.71 system 2.53 (user 21.9% system 78.1% total 100.0%)
+Net I/O: 907.5 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3087.16 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 13
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.318 s
+
+Connection rate: 7590.1 conn/s (0.1 ms/conn, <=35 concurrent connections)
+Connection time [ms]: min 0.5 avg 1.2 max 4.6 median 1.5 stddev 0.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 7590.1 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.77 system 0.55 (user 58.4% system 41.7% total 100.2%)
+Net I/O: 2231.1 KB/s (18.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 7590.09 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 34
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.783 s
+
+Connection rate: 2643.3 conn/s (0.4 ms/conn, <=89 concurrent connections)
+Connection time [ms]: min 0.4 avg 10.6 max 2997.8 median 1.5 stddev 166.5
+Connection time [ms]: connect 9.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 2643.3 req/s (0.4 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.65 system 2.12 (user 43.6% system 56.0% total 99.7%)
+Net I/O: 777.0 KB/s (6.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2643.31 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 13
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.240 s
+
+Connection rate: 3086.2 conn/s (0.3 ms/conn, <=247 concurrent connections)
+Connection time [ms]: min 0.4 avg 28.6 max 3001.9 median 1.5 stddev 268.4
+Connection time [ms]: connect 24.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 3086.2 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 4.3 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.74 system 2.50 (user 22.8% system 77.2% total 100.0%)
+Net I/O: 907.2 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3086.18 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=7900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 13
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.267 s
+
+Connection rate: 7890.0 conn/s (0.1 ms/conn, <=51 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.2 max 6.9 median 1.5 stddev 0.7
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 7890.0 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.73 system 0.54 (user 57.6% system 42.6% total 100.2%)
+Net I/O: 2319.2 KB/s (19.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 7890.04 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 65
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 4.113 s
+
+Connection rate: 2431.0 conn/s (0.4 ms/conn, <=92 concurrent connections)
+Connection time [ms]: min 0.4 avg 3.9 max 2996.8 median 1.5 stddev 84.9
+Connection time [ms]: connect 2.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 2431.0 req/s (0.4 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 2.60 system 1.51 (user 63.2% system 36.7% total 99.9%)
+Net I/O: 714.6 KB/s (5.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2431.05 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 14
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.233 s
+
+Connection rate: 3093.1 conn/s (0.3 ms/conn, <=249 concurrent connections)
+Connection time [ms]: min 0.4 avg 24.9 max 3002.8 median 1.5 stddev 241.9
+Connection time [ms]: connect 19.5
+Connection length [replies/conn]: 1.000
+
+Request rate: 3093.1 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 5.4 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.75 system 2.48 (user 23.2% system 76.7% total 99.9%)
+Net I/O: 909.2 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3093.08 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 14
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.223 s
+
+Connection rate: 8178.4 conn/s (0.1 ms/conn, <=56 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.3 max 6.8 median 1.5 stddev 0.7
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 8178.4 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.74 system 0.48 (user 60.5% system 39.3% total 99.8%)
+Net I/O: 2404.0 KB/s (19.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 8178.42 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 46
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.205 s
+
+Connection rate: 8296.2 conn/s (0.1 ms/conn, <=90 concurrent connections)
+Connection time [ms]: min 0.5 avg 1.4 max 11.2 median 1.5 stddev 0.8
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 8296.2 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.67 system 0.52 (user 55.6% system 43.1% total 98.7%)
+Net I/O: 2438.6 KB/s (20.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 8296.17 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 14
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.234 s
+
+Connection rate: 3092.1 conn/s (0.3 ms/conn, <=252 concurrent connections)
+Connection time [ms]: min 0.4 avg 31.0 max 3001.7 median 1.5 stddev 274.7
+Connection time [ms]: connect 25.2
+Connection length [replies/conn]: 1.000
+
+Request rate: 3092.1 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 5.8 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.80 system 2.43 (user 24.7% system 75.1% total 99.9%)
+Net I/O: 908.9 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3092.15 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 14
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.178 s
+
+Connection rate: 8488.7 conn/s (0.1 ms/conn, <=37 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.4 max 4.7 median 1.5 stddev 0.7
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 8488.7 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.51 system 0.67 (user 43.3% system 56.9% total 100.2%)
+Net I/O: 2495.2 KB/s (20.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 8488.66 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 44
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.010 s
+
+Connection rate: 3321.9 conn/s (0.3 ms/conn, <=84 concurrent connections)
+Connection time [ms]: min 0.4 avg 4.7 max 2998.5 median 1.5 stddev 95.0
+Connection time [ms]: connect 3.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 3321.9 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.3 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.82 system 1.19 (user 60.5% system 39.5% total 100.0%)
+Net I/O: 976.5 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3321.90 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 15
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.234 s
+
+Connection rate: 3091.7 conn/s (0.3 ms/conn, <=252 concurrent connections)
+Connection time [ms]: min 0.4 avg 30.9 max 3001.3 median 1.5 stddev 277.0
+Connection time [ms]: connect 25.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 3091.7 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 5.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.86 system 2.37 (user 26.6% system 73.3% total 99.9%)
+Net I/O: 908.8 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3091.72 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 15
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.139 s
+
+Connection rate: 8783.0 conn/s (0.1 ms/conn, <=38 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.4 max 6.9 median 1.5 stddev 0.7
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 8783.0 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.49 system 0.65 (user 43.0% system 57.1% total 100.1%)
+Net I/O: 2581.7 KB/s (21.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 8782.99 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=8900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 43
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.127 s
+
+Connection rate: 8876.7 conn/s (0.1 ms/conn, <=79 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.5 max 9.4 median 1.5 stddev 0.8
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 8876.7 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.52 system 0.61 (user 46.2% system 54.1% total 100.3%)
+Net I/O: 2609.3 KB/s (21.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 8876.66 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 15
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.222 s
+
+Connection rate: 3103.4 conn/s (0.3 ms/conn, <=264 concurrent connections)
+Connection time [ms]: min 0.5 avg 29.1 max 3002.3 median 1.5 stddev 260.1
+Connection time [ms]: connect 22.5
+Connection length [replies/conn]: 1.000
+
+Request rate: 3103.4 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 6.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.76 system 2.46 (user 23.6% system 76.3% total 99.9%)
+Net I/O: 912.2 KB/s (7.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3103.37 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9100 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 30
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 1.101 s
+
+Connection rate: 9081.5 conn/s (0.1 ms/conn, <=52 concurrent connections)
+Connection time [ms]: min 0.4 avg 1.6 max 6.0 median 1.5 stddev 0.9
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 9081.5 req/s (0.1 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.2 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.55 system 0.55 (user 49.9% system 49.9% total 99.9%)
+Net I/O: 2669.5 KB/s (21.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 9081.50 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9200 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 46
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.013 s
+
+Connection rate: 3318.5 conn/s (0.3 ms/conn, <=90 concurrent connections)
+Connection time [ms]: min 0.5 avg 5.3 max 3001.3 median 1.5 stddev 99.6
+Connection time [ms]: connect 3.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 3318.5 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.37 system 1.63 (user 45.5% system 54.1% total 99.6%)
+Net I/O: 975.5 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3318.49 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9300 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 16
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.244 s
+
+Connection rate: 3082.5 conn/s (0.3 ms/conn, <=353 concurrent connections)
+Connection time [ms]: min 0.5 avg 67.8 max 3004.2 median 2.5 stddev 422.8
+Connection time [ms]: connect 60.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 3082.5 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 6.9 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.34 system 2.90 (user 10.5% system 89.4% total 99.9%)
+Net I/O: 906.1 KB/s (7.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3082.54 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.1
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9400 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 37
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.961 s
+
+Connection rate: 2524.8 conn/s (0.4 ms/conn, <=82 concurrent connections)
+Connection time [ms]: min 0.4 avg 5.3 max 2998.0 median 1.5 stddev 94.9
+Connection time [ms]: connect 3.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 2524.8 req/s (0.4 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.0 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 2.08 system 1.87 (user 52.5% system 47.2% total 99.7%)
+Net I/O: 742.2 KB/s (6.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2524.84 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9500 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 56
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.016 s
+
+Connection rate: 3315.9 conn/s (0.3 ms/conn, <=103 concurrent connections)
+Connection time [ms]: min 0.4 avg 4.6 max 2999.0 median 1.5 stddev 90.0
+Connection time [ms]: connect 3.1
+Connection length [replies/conn]: 1.000
+
+Request rate: 3315.9 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 1.6 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.57 system 1.43 (user 52.1% system 47.4% total 99.5%)
+Net I/O: 974.7 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3315.90 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9600 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 16
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.677 s
+
+Connection rate: 2719.3 conn/s (0.4 ms/conn, <=335 concurrent connections)
+Connection time [ms]: min 0.5 avg 66.7 max 3208.4 median 2.5 stddev 408.4
+Connection time [ms]: connect 54.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 2719.3 req/s (0.4 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 12.1 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.70 system 2.98 (user 19.0% system 81.0% total 100.1%)
+Net I/O: 799.3 KB/s (6.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2719.32 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.1
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9700 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 17
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.037 s
+
+Connection rate: 3292.8 conn/s (0.3 ms/conn, <=75 concurrent connections)
+Connection time [ms]: min 0.5 avg 5.2 max 3000.2 median 2.5 stddev 90.0
+Connection time [ms]: connect 3.1
+Connection length [replies/conn]: 1.000
+
+Request rate: 3292.8 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 2.2 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.67 system 1.36 (user 55.0% system 44.8% total 99.8%)
+Net I/O: 967.9 KB/s (7.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3292.75 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9800 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 46
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.015 s
+
+Connection rate: 3316.4 conn/s (0.3 ms/conn, <=103 concurrent connections)
+Connection time [ms]: min 0.4 avg 10.5 max 3002.6 median 2.5 stddev 140.9
+Connection time [ms]: connect 7.0
+Connection length [replies/conn]: 1.000
+
+Request rate: 3316.4 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 3.5 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.29 system 1.71 (user 42.8% system 56.7% total 99.5%)
+Net I/O: 974.8 KB/s (8.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 3316.40 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=9900 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 17
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.963 s
+
+Connection rate: 2523.0 conn/s (0.4 ms/conn, <=381 concurrent connections)
+Connection time [ms]: min 0.5 avg 60.8 max 3003.3 median 3.5 stddev 374.9
+Connection time [ms]: connect 44.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 2523.0 req/s (0.4 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 16.4 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 0.82 system 3.14 (user 20.7% system 79.2% total 99.9%)
+Net I/O: 741.6 KB/s (6.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2523.02 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.1
+Session failtime [s]: 0.0
+Session length histogram: 0 10000
+httperf --hog --timeout=5 --client=0/1 --server=192.168.10.94 --port=9000 --uri=/ --rate=10000 --send-buffer=4096 --recv-buffer=16384 --wsesslog=10000,0.000,mongoBenchTomcat.log
+Maximum connect burst length: 17
+
+Total: connections 10000 requests 10000 replies 10000 test-duration 3.408 s
+
+Connection rate: 2934.3 conn/s (0.3 ms/conn, <=115 concurrent connections)
+Connection time [ms]: min 0.5 avg 10.7 max 2999.2 median 3.5 stddev 134.9
+Connection time [ms]: connect 6.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 2934.3 req/s (0.3 ms/req)
+Request size [B]: 135.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (0 samples)
+Reply time [ms]: response 4.3 transfer 0.0
+Reply size [B]: header 93.0 content 73.0 footer 0.0 (total 166.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=10000 5xx=0
+
+CPU time [s]: user 1.40 system 2.01 (user 41.1% system 59.0% total 100.1%)
+Net I/O: 862.5 KB/s (7.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 2934.30 max 0.00 stddev 0.00 (10000/10000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0 10000

@@ -70,8 +70,8 @@ public class Main
 		    .noSerialization();
 		
 		server.uri("/mongoEcho", config.getMongoEchoController())
-	    	.action("mongoEchoBenchmark", HttpMethod.GET)
-	    	.noSerialization();
+	    	.action("mongoEchoBenchmark", HttpMethod.GET);
+	    	//.noSerialization();
 		
 		server.uri("/fileIO", config.getFileIOController(config.getFileDirectory()))
 	    	.action("fileIOBenchmark", HttpMethod.GET)

@@ -1,23 +1,25 @@
 package com.echo.domain;
 
+
 public class TestData 
 {
-	private String name;
-	private String email;
+	private String value;
 	
-	public String getName() {
-		return name;
+	public TestData(){
+		
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	
-	
 
-}
+	public TestData(String val)
+	{
+		this.value = val;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+
+}	

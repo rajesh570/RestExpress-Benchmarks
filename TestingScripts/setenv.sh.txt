@@ -1,0 +1,7 @@
+export CATALINA_OPTS=" \
+-XX+PrintGCTimeStamps \
+-XX:+PrintGCDetails \
+-XX:+PrintGCApplicationStoppedTime \
+-XX:+PrintGCApplicationConcurrentTime \
+-XX:+PrintHeapAtGC \
+-Xloggc:logs/gc.log"

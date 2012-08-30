@@ -1,0 +1,1 @@
+/sample-servlets/MongoEchoServlet method=POST contents="{\"value\":\"test\"}"

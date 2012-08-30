@@ -1,0 +1,1 @@
+/mongoEcho method=POST contents="{\"value\":\"test\"}"

@@ -1,0 +1,37 @@
+EchoServlet
+FileIO
+Mongodb read write - Plug it into Controller
+Marshalling Unmarshalling - Jackson
+
+Physical resources - Linux Box 
+------------------------------
+Current one is 2 sockets, 4core. 
+Hyperthreading makes it look like 16cpus.
+
+
+2 core 4 gig.
+4 core 
+8 core
+16 core
+
+HttpPerf to load test.
+
+Http Apr Connector setup for tomcat
+
+( Taskset linux ) 
+
+
+Client Box - Linux Box
+-----------------------
+HttpPerf
+ 
+2-4core
+
+
+Server Box
+------------
+sysadmin@sm4nic02.dmz.arch.ecollege.com     password: 5y54dm1n!
+
+Client Box
+------------
+sysadmin@sm4nic01.dmz.arch.ecollege.com     password: 5y54dm1n!

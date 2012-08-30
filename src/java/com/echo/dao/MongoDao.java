@@ -3,14 +3,18 @@
  */
 package com.echo.dao;
 
+import java.awt.Cursor;
 import java.net.UnknownHostException;
 
+import com.echo.domain.TestData;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
 import com.mongodb.Mongo;
 import com.mongodb.MongoException;
+import com.mongodb.WriteResult;
 
 /**
  * @author VGASPRI
@@ -144,19 +148,23 @@ public class MongoDao {
 
 	}
 	
-	public static String readWrite(String echoValue)
+	public static DBObject readWrite(TestData testData)
 	{
+		DBCursor cursor = null;
 		try {
 				DB db = mongo.getDB("test");
 				DBCollection items = db.getCollection("echoTestColl");
 				BasicDBObject query = new BasicDBObject();
-				query.put("data", echoValue);
-				DBCursor cursor = items.find(query);
+				query.put("data", testData.getValue());
+				items.insert(query);
+				cursor = items.find(query);
 				while (cursor.hasNext()) {
-				    return(cursor.next().toString());
+				    return(cursor.next());
 				}
 		    } catch (MongoException e){
 		    	e.printStackTrace();
+		    } finally{
+		    	cursor.close();
 		    }
 		    
 		return null;

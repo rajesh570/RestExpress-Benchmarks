@@ -1,0 +1,1 @@
+http://sm4nic02.dmz.arch.ecollege.com:9000/echo?echo=benchmarks method=POST contents="{\"value\":\"test\"}"
